@@ -38,3 +38,6 @@ This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
 # SEE ALSO
+
+- [Mu](https://metacpan.org/pod/Mu)
+- [MooX::StrictConstructor](https://metacpan.org/pod/MooX::StrictConstructor)
