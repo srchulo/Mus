@@ -6,7 +6,7 @@ our $VERSION = '0.01';
 use strictures 2;
 use Import::Into;
 
-use Mu;
+use Mu ();
 use MooX::StrictConstructor ();
 
 sub import {
@@ -59,5 +59,17 @@ This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
 =head1 SEE ALSO
+
+=over 4
+
+=item *
+
+L<Mu>
+
+=item *
+
+L<MooX::StrictConstructor>
+
+=back
 
 =cut
