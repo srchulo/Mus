@@ -11,7 +11,7 @@ use MooX::StrictConstructor ();
 
 sub import {
     my $caller = caller;
-    $_->import::into( $caller ) for qw/ Mu MooX::StrictConstructor /;
+    for my $module (qw/ Mu MooX::StrictConstructor /) { $module->import::into($caller) }
 }
 
 1;
