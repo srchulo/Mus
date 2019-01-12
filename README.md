@@ -5,7 +5,7 @@ Mus - Mu but with slightly more typing and strict constructors
 # STATUS
 
 <div>
-    <a href="https://travis-ci.org/srchulo/Mus"><img src="https://travis-ci.org/srchulo/Mus.svg?branch=master"></a>
+    <a href="https://travis-ci.org/srchulo/Mus"><img src="https://travis-ci.org/srchulo/Mus.svg?branch=master"></a> <a href='https://coveralls.io/github/srchulo/Mus'><img src='https://coveralls.io/repos/github/srchulo/Mus/badge.svg' alt='Coverage Status' /></a>
 </div>
 
 # SYNOPSIS
