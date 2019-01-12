@@ -2,6 +2,12 @@
 
 Mus - Mu but with slightly more typing and strict constructors
 
+# STATUS
+
+<div>
+    <a href="https://travis-ci.org/srchulo/Mus"><img src="https://travis-ci.org/srchulo/Mus.svg?branch=master"></a>
+</div>
+
 # SYNOPSIS
 
     package Foo;

@@ -23,6 +23,10 @@ __END__
 
 Mus - Mu but with slightly more typing and strict constructors
 
+=head1 STATUS
+
+=for html <a href="https://travis-ci.org/srchulo/Mus"><img src="https://travis-ci.org/srchulo/Mus.svg?branch=master"></a>
+
 =head1 SYNOPSIS
 
   package Foo;
