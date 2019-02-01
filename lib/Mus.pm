@@ -6,12 +6,8 @@ our $VERSION = '0.01';
 use strictures 2;
 use Import::Into;
 
-use Mu ();
-use MooX::StrictConstructor ();
-
 sub import {
-    my $caller = caller;
-    for my $module (qw/ Mu MooX::StrictConstructor /) { $module->import::into($caller) }
+    $_->import::into( 1 ) for qw/ Mu MooX::StrictConstructor /;
 }
 
 1;
@@ -37,7 +33,7 @@ Mus - Mu but with slightly more typing and strict constructors
   rwp "hrwp";
   rw "hrw";
 
-  my $foo = Foo->new(i_don_exist => 5, hro => "exists", hrwp => "exists", hrw => "exists");
+  my $foo = Foo->new(i_dont_exist => 5, hro => "exists", hrwp => "exists", hrw => "exists");
 
   # Found unknown attribute(s) passed to the constructor: i_dont_exist at (eval 30) line 52.
   #     Foo::new("Foo", "i_dont_exist", 5, "hro", "exists", "hrwp", "exists", "hrw", ...) called at Foo.pl line 9
