@@ -1,7 +1,7 @@
 package Mus;
 
 use 5.008_005;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use strictures 2;
 use Import::Into;

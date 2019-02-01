@@ -1,6 +1,8 @@
 Revision history for Mus
 
 {{$NEXT}}
+
+0.02  2019-01-31 23:14:15 CST
     - Use more compact syntax as recommended in https://github.com/srchulo/Mus/issues/1
 
 0.01  2019-01-10 23:53:50 CST
